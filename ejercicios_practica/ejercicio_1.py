@@ -1,4 +1,4 @@
-# Condicionales [Python]
+ # Condicionales [Python]
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
@@ -28,3 +28,25 @@ numero_2 = int(input('Ingrese el segundo número:\n'))
 # Verifique si el numero_1 es menor a 10 o el numero_2
 # es mayor a -2
 # Imprima en pantalla si se cumple o no la condición
+
+if numero_1 > numero_2:
+    print("El numero", numero_1, "es mayor que", numero_2)
+else:
+    print("El numero", numero_2, "es mayor que", numero_1)
+
+if (numero_1 > 0):
+    print("El numero", numero_1, "es positivo.")
+elif(numero_1 == 0):
+    print("El numero es igual a", numero_1)
+else:
+    print("El numero", numero_1, "es negativo.")
+
+if (numero_1 > 0 and numero_1 < 100):
+    print("El numero", numero_1, "cumple con la condición!")
+else:
+    print(numero_1, "no cumple con la condición.")
+
+if (numero_1 < 10 or numero_2 > -2):
+    print("Una o ambas condiciones se han cumplido.")
+else:
+    print("Ninguna de las condiciones se ha cumplido.")

@@ -32,3 +32,23 @@ texto_2 = '7'
 # Esta pregunta estará repetida en el Campus para que puedan
 # responder.
 # NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
+
+if (texto_1 > texto_2):
+    print("{} es mayor que {}".format(texto_1, texto_2))
+elif (texto_1 == texto_2):
+    print("Los textos son iguales")
+else:
+    print("{} es mayor que {}".format(texto_2, texto_1))
+
+numero_1 = int(texto_1)
+numero_2 = int(texto_2)
+
+if (numero_1 > numero_2):
+    print("{} es mayor que {}".format(numero_1, numero_2))
+elif (numero_1 == numero_2):
+    print("{} es igual que {}".format(numero_1, numero_2))
+else:
+    print("{} es mayor que {}".format(numero_2, numero_1))
+
+# Cierto, es mayor texto_2 teniendo en cuenta que estan ordenados alfanumericamente.
+# El 7 viene despues del 5.
